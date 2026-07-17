@@ -1,0 +1,235 @@
+{
+  "kpis_globaux": {
+    "ca_total": 2184534.76,
+    "profit_total": 289436.31,
+    "panier_moyen": 258.46,
+    "taux_annulation_pct": 1.95,
+    "taux_retour_pct": 8.14,
+    "nb_commandes": 9400,
+    "nb_clients": 1747,
+    "pct_clients_recurrents": 74.01,
+    "pct_clients_pour_80pct_ca": 30.68
+  },
+  "par_categorie": [
+    {
+      "categorie": "Électronique",
+      "ca": 1585215.1172,
+      "marge": 190225.814064,
+      "profit": 150413.814064,
+      "n_commandes": 3006,
+      "taux_retour": 13.84
+    },
+    {
+      "categorie": "Maison",
+      "ca": 353578.0848,
+      "marge": 106073.42543999999,
+      "profit": 82250.91544,
+      "n_commandes": 1799,
+      "taux_retour": 4.95
+    },
+    {
+      "categorie": "Mode",
+      "ca": 171457.5704,
+      "marge": 77155.90668,
+      "profit": 39520.00668,
+      "n_commandes": 2837,
+      "taux_retour": 7.44
+    },
+    {
+      "categorie": "Beauté",
+      "ca": 74283.98505,
+      "marge": 40856.191777500004,
+      "profit": 17251.571777500005,
+      "n_commandes": 1758,
+      "taux_retour": 2.79
+    }
+  ],
+  "par_ville": [
+    {
+      "ville": "Kinshasa",
+      "ca": 658317.2976,
+      "profit": 87630.42994,
+      "n_commandes": 2724,
+      "taux_annulation": 0.25697503671071953
+    },
+    {
+      "ville": "Abidjan",
+      "ca": 434091.17949999997,
+      "profit": 56379.74267,
+      "n_commandes": 1756,
+      "taux_annulation": 0.0
+    },
+    {
+      "ville": "Dakar",
+      "ca": 301146.8378,
+      "profit": 41078.661314,
+      "n_commandes": 1346,
+      "taux_annulation": 0.0
+    },
+    {
+      "ville": "Douala",
+      "ca": 294124.45645,
+      "profit": 37784.0761735,
+      "n_commandes": 1362,
+      "taux_annulation": 12.922173274596183
+    },
+    {
+      "ville": "Lomé",
+      "ca": 164520.5004,
+      "profit": 22103.240176,
+      "n_commandes": 682,
+      "taux_annulation": 0.0
+    },
+    {
+      "ville": "Cotonou",
+      "ca": 142848.5266,
+      "profit": 19324.884552,
+      "n_commandes": 631,
+      "taux_annulation": 0.0
+    },
+    {
+      "ville": "Libreville",
+      "ca": 98832.6356,
+      "profit": 13225.506732,
+      "n_commandes": 467,
+      "taux_annulation": 0.0
+    },
+    {
+      "ville": "Brazzaville",
+      "ca": 90653.3235,
+      "profit": 11909.766404,
+      "n_commandes": 432,
+      "taux_annulation": 0.0
+    }
+  ],
+  "croissance_ville_pct": {
+    "Douala": 74.32,
+    "Brazzaville": 51.16,
+    "Abidjan": 22.89,
+    "Kinshasa": 18.2,
+    "Lomé": 16.19,
+    "Cotonou": 14.47,
+    "Dakar": -9.39,
+    "Libreville": -33.0
+  },
+  "par_canal": [
+    {
+      "canal_marketing": "Email",
+      "ca": 467463.2399,
+      "cout_marketing": 2349.15,
+      "n_commandes": 1894,
+      "n_clients": 903,
+      "roi": 197.99250362897214,
+      "taux_retention_pct": 94.98416050686377
+    },
+    {
+      "canal_marketing": "Google Ads",
+      "ca": 581109.72465,
+      "cout_marketing": 13158.93,
+      "n_commandes": 2393,
+      "n_clients": 1001,
+      "roi": 43.160864496581404,
+      "taux_retention_pct": 95.69577935645633
+    },
+    {
+      "canal_marketing": "Instagram Ads",
+      "ca": 824010.87045,
+      "cout_marketing": 37637.07,
+      "n_commandes": 3765,
+      "n_clients": 1240,
+      "roi": 20.893597733564278,
+      "taux_retention_pct": 94.9800796812749
+    },
+    {
+      "canal_marketing": "Influenceur",
+      "ca": 311950.92245,
+      "cout_marketing": 16359.59,
+      "n_commandes": 1348,
+      "n_clients": 755,
+      "roi": 18.068382670348093,
+      "taux_retention_pct": 95.02967359050444
+    }
+  ],
+  "top10_clients": [
+    {
+      "id_client": "C0157",
+      "valeur_vie_client": 11379.1149,
+      "nombre_commandes": 26,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0266",
+      "valeur_vie_client": 10596.281799999999,
+      "nombre_commandes": 19,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0051",
+      "valeur_vie_client": 8955.306199999999,
+      "nombre_commandes": 17,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0114",
+      "valeur_vie_client": 8874.6801,
+      "nombre_commandes": 21,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0184",
+      "valeur_vie_client": 8175.8795,
+      "nombre_commandes": 20,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0379",
+      "valeur_vie_client": 7948.451,
+      "nombre_commandes": 25,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0352",
+      "valeur_vie_client": 7457.377399999999,
+      "nombre_commandes": 14,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0082",
+      "valeur_vie_client": 7351.238149999999,
+      "nombre_commandes": 23,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0364",
+      "valeur_vie_client": 7343.3593,
+      "nombre_commandes": 19,
+      "segment": "VIP"
+    },
+    {
+      "id_client": "C0273",
+      "valeur_vie_client": 7171.7887,
+      "nombre_commandes": 23,
+      "segment": "VIP"
+    }
+  ],
+  "segments": [
+    {
+      "segment_client": "VIP",
+      "nb_clients": 350,
+      "clv_moyenne": 4081.384534571428,
+      "clv_totale": 1428484.5871
+    },
+    {
+      "segment_client": "Régulier",
+      "nb_clients": 524,
+      "clv_moyenne": 1161.461824332061,
+      "clv_totale": 608605.99595
+    },
+    {
+      "segment_client": "Occasionnel",
+      "nb_clients": 873,
+      "clv_moyenne": 168.89367056128293,
+      "clv_totale": 147444.1744
+    }
+  ]
+}

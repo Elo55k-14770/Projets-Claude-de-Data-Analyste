@@ -1,0 +1,55 @@
+diagnosis,tranche_age,n,pct
+Anémie,0-4 ans,35,3.4
+Anémie,15-24 ans,220,21.1
+Anémie,25-44 ans,420,40.2
+Anémie,45-64 ans,187,17.9
+Anémie,5-14 ans,137,13.1
+Anémie,65 ans et +,45,4.3
+Diabète,0-4 ans,19,2
+Diabète,15-24 ans,216,22.4
+Diabète,25-44 ans,403,41.7
+Diabète,45-64 ans,193,20
+Diabète,5-14 ans,103,10.7
+Diabète,65 ans et +,32,3.3
+Diarrhée,0-4 ans,35,3.5
+Diarrhée,15-24 ans,199,20.1
+Diarrhée,25-44 ans,423,42.8
+Diarrhée,45-64 ans,185,18.7
+Diarrhée,5-14 ans,129,13
+Diarrhée,65 ans et +,18,1.8
+Hypertension,0-4 ans,27,2.8
+Hypertension,15-24 ans,194,20.2
+Hypertension,25-44 ans,384,40
+Hypertension,45-64 ans,195,20.3
+Hypertension,5-14 ans,130,13.6
+Hypertension,65 ans et +,29,3
+Infection Respiratoire,0-4 ans,34,3.4
+Infection Respiratoire,15-24 ans,193,19.3
+Infection Respiratoire,25-44 ans,444,44.3
+Infection Respiratoire,45-64 ans,168,16.8
+Infection Respiratoire,5-14 ans,139,13.9
+Infection Respiratoire,65 ans et +,24,2.4
+Malnutrition,0-4 ans,27,2.6
+Malnutrition,15-24 ans,205,19.9
+Malnutrition,25-44 ans,434,42.1
+Malnutrition,45-64 ans,196,19
+Malnutrition,5-14 ans,131,12.7
+Malnutrition,65 ans et +,38,3.7
+Paludisme,0-4 ans,34,3.5
+Paludisme,15-24 ans,199,20.3
+Paludisme,25-44 ans,431,43.9
+Paludisme,45-64 ans,188,19.1
+Paludisme,5-14 ans,106,10.8
+Paludisme,65 ans et +,24,2.4
+Tuberculose,0-4 ans,40,4.1
+Tuberculose,15-24 ans,205,20.9
+Tuberculose,25-44 ans,411,41.8
+Tuberculose,45-64 ans,185,18.8
+Tuberculose,5-14 ans,116,11.8
+Tuberculose,65 ans et +,26,2.6
+Typhoïde,0-4 ans,31,3.1
+Typhoïde,15-24 ans,209,20.9
+Typhoïde,25-44 ans,431,43.1
+Typhoïde,45-64 ans,165,16.5
+Typhoïde,5-14 ans,133,13.3
+Typhoïde,65 ans et +,30,3

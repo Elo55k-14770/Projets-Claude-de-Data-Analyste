@@ -1,0 +1,3 @@
+variable,n,moyenne,mediane,ecart_type,variance,min,q1,q3,max,coeff_variation_pct
+patient_age,9439,31.7,31,16.22,263.17,1,19,43,95,51.2
+treatment_cost,9460,17.38,16.36,8.68,75.38,2,10.88,23.57,45.19,49.9
