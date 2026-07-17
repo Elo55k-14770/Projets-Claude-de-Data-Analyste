@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+import io
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
@@ -94,6 +95,11 @@ c3.metric("Panier moyen", f"{panier_moyen:,.0f}")
 c4.metric("Taux d'annulation", f"{taux_annulation:.1f}%")
 c5.metric("Taux de retour", f"{taux_retour:.1f}%")
 c6.metric("Clients uniques", f"{nb_clients:,}")
+
+# Download cleaned dataset
+with st.expander("Télécharger les données filtrées / nettoyées"):
+    csv_bytes = df.to_csv(index=False).encode('utf-8')
+    st.download_button("Télécharger CSV (filtered)", data=csv_bytes, file_name="afrimarket_filtered.csv", mime="text/csv")
 
 st.markdown("---")
 
@@ -275,13 +281,15 @@ with tab5:
     )
     st.plotly_chart(fig, use_container_width=True)
 
+    # Controls: Top N selection
+    top_n = st.slider("Top N clients (par valeur vie client)", min_value=5, max_value=50, value=10)
     col1, col2 = st.columns(2)
     with col1:
-        st.markdown("**Top 10 clients (valeur vie client)**")
-        top10 = clv_par_client.head(10).to_frame("valeur_vie_client").reset_index()
-        top10["nombre_commandes"] = top10["id_client"].map(commandes_par_client)
-        top10["segment"] = top10["id_client"].map(df.groupby("id_client")["segment_client"].first())
-        st.dataframe(top10, use_container_width=True)
+        st.markdown("**Top clients (valeur vie client)**")
+        topk = clv_par_client.head(top_n).to_frame("valeur_vie_client").reset_index()
+        topk["nombre_commandes"] = topk["id_client"].map(commandes_par_client)
+        topk["segment"] = topk["id_client"].map(df.groupby("id_client")["segment_client"].first())
+        st.dataframe(topk, use_container_width=True)
 
     with col2:
         st.markdown("**Segmentation client (CLV)**")
@@ -290,7 +298,8 @@ with tab5:
             ["count", "mean", "sum"]
         )
         seg_summary.columns = ["nb_clients", "clv_moyenne", "clv_totale"]
-        fig = px.pie(seg_summary.reset_index(), names="segment_client", values="nb_clients",
+        seg_summary = seg_summary.reset_index().rename(columns={"index": "segment_client"})
+        fig = px.pie(seg_summary, names=segment_par_client.name if hasattr(segment_par_client, 'name') else 'segment_client', values="nb_clients",
                      title="Répartition des clients par segment", color_discrete_sequence=px.colors.qualitative.Set2)
         st.plotly_chart(fig, use_container_width=True)
         st.dataframe(seg_summary, use_container_width=True)
