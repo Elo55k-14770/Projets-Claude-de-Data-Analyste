@@ -1,6 +1,6 @@
-# AfriMarket
+<h1><span style="color:#ff66b2">AfriMarket</span></h1>
 
-Projet Python d'analyse et de visualisation pour un e-commerce panafricain.
+<h2><span style="color:#4da6ff">Projet Python d'analyse et de visualisation pour un e-commerce panafricain</span></h2>
 
 ## Présentation
 Ce projet contient un pipeline de préparation des données, une analyse exploratoire et un dashboard interactif Streamlit pour explorer les performances commerciales d'AfriMarket.
