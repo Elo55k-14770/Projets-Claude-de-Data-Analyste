@@ -1,0 +1,193 @@
+{
+  "path": "afrimarket_dataset_senior.csv",
+  "shape": [
+    10100,
+    14
+  ],
+  "columns": {
+    "id_commande": "str",
+    "date_commande": "str",
+    "id_client": "str",
+    "ville": "str",
+    "categorie": "str",
+    "nom_produit": "str",
+    "prix_unitaire": "float64",
+    "quantite": "int64",
+    "remise": "float64",
+    "cout_livraison": "float64",
+    "methode_paiement": "str",
+    "canal_marketing": "str",
+    "cout_marketing": "float64",
+    "statut_commande": "str"
+  },
+  "missing_counts": {
+    "id_commande": 0,
+    "date_commande": 0,
+    "id_client": 0,
+    "ville": 0,
+    "categorie": 0,
+    "nom_produit": 0,
+    "prix_unitaire": 0,
+    "quantite": 0,
+    "remise": 0,
+    "cout_livraison": 0,
+    "methode_paiement": 0,
+    "canal_marketing": 0,
+    "cout_marketing": 0,
+    "statut_commande": 0
+  },
+  "missing_percent": {
+    "id_commande": 0.0,
+    "date_commande": 0.0,
+    "id_client": 0.0,
+    "ville": 0.0,
+    "categorie": 0.0,
+    "nom_produit": 0.0,
+    "prix_unitaire": 0.0,
+    "quantite": 0.0,
+    "remise": 0.0,
+    "cout_livraison": 0.0,
+    "methode_paiement": 0.0,
+    "canal_marketing": 0.0,
+    "cout_marketing": 0.0,
+    "statut_commande": 0.0
+  },
+  "duplicate_count": 100,
+  "numeric_describe": {
+    "prix_unitaire": {
+      "count": 10100.0,
+      "mean": 140.49335346534656,
+      "std": 172.03160734840483,
+      "min": -50.0,
+      "25%": 28.057499999999997,
+      "50%": 52.974999999999994,
+      "75%": 201.885,
+      "max": 915.86
+    },
+    "quantite": {
+      "count": 10100.0,
+      "mean": 1.8660396039603961,
+      "std": 0.9209659028934497,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 3.0,
+      "max": 3.0
+    },
+    "remise": {
+      "count": 10100.0,
+      "mean": 0.11142178217821784,
+      "std": 0.09835209347699787,
+      "min": -0.1,
+      "25%": 0.05,
+      "50%": 0.09,
+      "75%": 0.19,
+      "max": 0.3
+    },
+    "cout_livraison": {
+      "count": 10100.0,
+      "mean": 6.008478217821783,
+      "std": 2.3049533901418915,
+      "min": 2.0,
+      "25%": 4.04,
+      "50%": 5.99,
+      "75%": 8.03,
+      "max": 10.0
+    },
+    "cout_marketing": {
+      "count": 10100.0,
+      "mean": 7.3884653465346535,
+      "std": 4.63894503865669,
+      "min": 0.5,
+      "25%": 3.98,
+      "50%": 6.87,
+      "75%": 10.85,
+      "max": 19.98
+    }
+  },
+  "top_values": {
+    "id_commande": {
+      "CMD100058": 2,
+      "CMD100151": 2,
+      "CMD100165": 2,
+      "CMD100179": 2,
+      "CMD100201": 2,
+      "CMD100232": 2,
+      "CMD100246": 2,
+      "CMD100304": 2,
+      "CMD100424": 2,
+      "CMD100529": 2
+    },
+    "date_commande": {
+      "2025-10-22": 76,
+      "2025-08-11": 72,
+      "2025-10-07": 72,
+      "2025-10-15": 70,
+      "2025-12-23": 70,
+      "2025-10-24": 70,
+      "2025-09-15": 69,
+      "2025-08-05": 69,
+      "2025-12-10": 68,
+      "2025-12-12": 67
+    },
+    "id_client": {
+      "C0368": 30,
+      "C0120": 29,
+      "C0330": 28,
+      "C0001": 28,
+      "C0379": 27,
+      "C0095": 27,
+      "C0157": 27,
+      "C0310": 27,
+      "C0003": 26,
+      "C0026": 26
+    },
+    "ville": {
+      "Kinshasa": 2349,
+      "Abidjan": 1886,
+      "Douala": 1449,
+      "Dakar": 1434,
+      "Lomé": 735,
+      "Cotonou": 677,
+      "Kinshassa": 605,
+      "Libreville": 493,
+      "Brazzaville": 472
+    },
+    "categorie": {
+      "Mode": 3005,
+      "Électronique": 2638,
+      "Maison": 1948,
+      "Beauté": 1903,
+      "electronique": 606
+    },
+    "nom_produit": {
+      "Produit_Mode_1": 81,
+      "Produit_Mode_37": 78,
+      "Produit_Mode_8": 77,
+      "Produit_Mode_17": 76,
+      "Produit_Mode_9": 75,
+      "Produit_Électronique_21": 75,
+      "Produit_Électronique_9": 75,
+      "Produit_Mode_34": 74,
+      "Produit_Mode_12": 73,
+      "Produit_Mode_5": 72
+    },
+    "methode_paiement": {
+      "Paiement à la livraison": 2561,
+      "Mobile Money": 2529,
+      "Virement": 2508,
+      "Carte": 2502
+    },
+    "canal_marketing": {
+      "Instagram Ads": 4045,
+      "Google Ads": 2552,
+      "Email": 2049,
+      "Influenceur": 1454
+    },
+    "statut_commande": {
+      "Livrée": 9080,
+      "retournée": 826,
+      "Annulée": 194
+    }
+  }
+}

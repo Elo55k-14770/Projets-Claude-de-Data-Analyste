@@ -1,0 +1,16 @@
+{
+  "initial_shape": [
+    10100,
+    14
+  ],
+  "after_dedup_shape": [
+    9400,
+    21
+  ],
+  "duplicates_removed": 100,
+  "na_dates": 0,
+  "neg_prices_replaced": 622,
+  "zero_quantity_removed": 600,
+  "neg_remises_corrected": 563,
+  "large_remises_capped": 0
+}
